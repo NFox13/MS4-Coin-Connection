@@ -52,6 +52,11 @@ body {
     color: #000 !important;
 }
 
+.hero-text-white {
+    color: white !important;
+    background: #00000080 !important;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
