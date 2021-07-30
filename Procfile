@@ -1,0 +1,1 @@
+web: gunicorn coin_connection.wsgi:application
