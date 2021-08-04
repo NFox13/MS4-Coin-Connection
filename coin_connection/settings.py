@@ -64,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+X-Frame-Options: SAMEORIGIN
 
 ROOT_URLCONF = 'coin_connection.urls'
 
