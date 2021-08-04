@@ -60,7 +60,7 @@ body {
 
 .hero-text-white {
     color: white !important;
-    background: #00000080 !important;
+    background: #000000A6 !important;
 }
 
 .border-black {
@@ -69,6 +69,10 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+.bg-grey {
+    background: #848FA5 !important;
 }
 
 .overlay {
