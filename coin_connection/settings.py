@@ -64,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-X-Frame-Options: SAMEORIGIN
+X-Frame-Options: ALLOW-FROM https://ami.responsivedesign.is/
 
 ROOT_URLCONF = 'coin_connection.urls'
 
