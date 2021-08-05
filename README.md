@@ -363,13 +363,14 @@ The first bug was identified as a bug in the Code Institute template that preven
 
 Additionally, all code was validated in the following ways:
 
-HTML - [W3C HTML Validator](https://validator.w3.org/) to ensure compliance with the standards set by the W3C. 
+HTML - [W3C HTML Validator](https://validator.w3.org/) 
 
 CSS - [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) 
 
-Python - Python PEP8 
+Python - [PEP8 online check](http://pep8online.com/) 
 
-Lighthouse performance report
+Performance - [Lighthouse performance report](http://pep8online.com/)
+![Performance report](media/lighthouse-report.jpg)
 
 
 ## DEPLOYMENT
