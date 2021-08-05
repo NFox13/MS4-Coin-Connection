@@ -92,3 +92,45 @@ Delete a product | <https://ms4-coin-connection.herokuapp.com/products/3/> -- (o
 
 - _The above details the types of actions an administrator/Superuser can do from the website, however, all administrators/Superuser will also have access to the database through Django's admin panel._
 
+
+### Wireframes
+
+Following the user stories, wireframes were drawn to provide a starting point and guidance throughout the development process. Some minor changes occurred during production but I kept the design to the Boutique Ado design as it works well.
+
+#### Desktop Wireframes
+
+The home page on desktop
+![Coin Connection Desktop Wireframe](media/home-desktop.jpg)
+
+The products page on desktop
+![Coin Connection Desktop Wireframe](media/products-desktop.jpg)
+
+#### Mobile Wireframes
+
+The home page on mobile
+![Coin Connection Mobile Wireframe](media/home-mobile.jpg)
+
+The products page on mobile
+![Coin Connection Mobile Wireframe](media/products-mobile.jpg)
+
+To aid the user experience, the pages follow the same design. Navigation, menu options etc are carried through in each page.
+
+
+### DESIGN
+
+The application was built using Bootstrap. The font, colours and design were all chosen to give a sleek, clean and clear look to the site.
+The responsiveness was developed so users can have a pleasant experience on desktop, laptop, tablet or mobile.
+
+#### Typography
+
+The google font "Poppins" regular 400 was used throughout the site, again to give a sleak look and it is easy to read: <https://fonts.google.com/specimen/Poppins>
+The site also uses [Fontawesome](https://fontawesome.com/) icons throughout.
+
+#### Colours
+
+Colours were chosen to best reflect to clean look of black and white along with the silver and gold of bullion.
+The colour scheme was generated using [Coolors](https://coolors.co/)
+![Colour scheme](media/colour-scheme.jpg)
+
+
+
