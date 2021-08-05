@@ -269,15 +269,15 @@ Some possible future features that could be implemented would be:
 
 Testing was done manually throughout the development process. 
 
-## Navigation
+### Navigation
 
 All links were checked and work as intended. Some links, such as coin management requires a login, therefore, even if a user tries to force the page (whether logged in or not), and are not part of the administrative team, the user will be denied access.
 
-### Mobile Navigation
+#### Mobile Navigation
 
 A hamburger style collapse is in operation for users on small screen devices.
 
-### Desktop Navigation
+#### Desktop Navigation
 
 A full width navbar is in operation allowing users to see their options in an easy to follow format.
 
