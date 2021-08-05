@@ -32,8 +32,6 @@ Coin Connection is an e-commerce website for people to buy bullion or antique co
 - [Technologies](#technologies)
 - [Tools Used](#tools)
   - [Design Library](#design-library)
-- [Known Bugs](#known-bugs)
-- [Version Control](#version-control)
 - [Credits](#credits)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
@@ -380,7 +378,7 @@ The application relies on the following services, and accounts will have to be c
 
 - [Amazon AWS](https://aws.amazon.com/)
 - [Stripe](https://stripe.com/)
-- An email account, [GMail](https://mail.google.com/)
+- An email account, [Gmail](https://mail.google.com/)
 
 ### Local Deployment
 
@@ -404,17 +402,13 @@ python -m pip -r requirements.txt
 
 Variable | Value
 --- | --- |
-'DEVELOPMENT', 'True'
-'SECRET_KEY', '[YOUR_SECRET_KEY]'
-'STRIPE_PUBLIC_KEY', '[YOUR_STRIPE_PUBLIC_KEY]'
-'STRIPE_SECRET_KEY', '[YOUR_STRIPE_SECRET_KEY]'
-'STRIPE_WH_SECRET', '[YOUR_STRIPE_WEBHOOK_SECRET_KEY]'
-'EMAIL_HOST_USER', '[YOUR_EMAIL]'
-'EMAIL_HOST_PASS', '[YOUR_EMAIL_SECRET_KEY]'
-'DEFAULT_FROM_EMAIL', '[YOUR_EMAIL]'
-'DATABASE_URL', '[YOUR_POSTGRES_KEY]'
+'DEVELOPMENT' | 'True'
+'SECRET_KEY' | '[YOUR_SECRET_KEY]'
+'STRIPE_PUBLIC_KEY' | '[YOUR_STRIPE_PUBLIC_KEY]'
+'STRIPE_SECRET_KEY' | '[YOUR_STRIPE_SECRET_KEY]'
+'STRIPE_WH_SECRET' | '[YOUR_STRIPE_WEBHOOK_SECRET_KEY]'
 
-Please note that you will need to update the `SECRET_KEY` with your own secret key, as well as the Stripe keys and secret variables with those provided by those applications.
+Please note that you will need to update the `SECRET_KEY` with your own secret key, as well as the Stripe keys and secret variables with those provided by the application.
 
 4. The application can now be run locally. In your terminal, type the command `python manage.py runserver`. The application will be available in your browser at the address `http:127.0.0.1:8000`. The admin panel can be located at `http:127.0.0.1:8000/admin/`.
 
@@ -444,3 +438,46 @@ STRIPE_WH_SECRET | For Stripe's webhooks use the key provided
 
 6. In the Heroku dashboard, deploy the application.
 7. To view the site, click on the link in the "Domains" section.
+
+## TECHNOLOGIES
+
+- HTML
+- CSS
+- JavaScript / jQuery
+- Python
+- Django
+
+## TOOLS
+
+- [Github](https://github.com/)
+- [Heroku](https://dashboard.heroku.com/apps)
+- [Windows Paint](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+- [FontAwesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [iloveimg](https://www.iloveimg.com/)
+- [tinypng](https://tinypng.com/)
+- [unsplash](https://unsplash.com/)
+- [Google images](https://www.google.com/imghp?hl=en)
+
+## DESIGN LIBRARY
+
+- [Bootstrap](https://getbootstrap.com/)
+
+## CREDITS
+
+### Media
+
+- Background image: Photo by <a href="https://unsplash.com/@zlataky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zlatáky.cz</a> on <a href="https://unsplash.com/s/photos/coin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+### Coin Images
+
+- All coin images were sourced from Google images, cropped using iloveimg.com, resized using microsoft paint and tinified using tinypng.com.
+
+
+### Acknowledgements
+
+- The site was inspired by the tutorial videos of Code Institute's Boutique Ado site.
+- Code Institute's Tutor team were a great help when the answers were not on Slack.
+- [Felipe Alarcon](https://github.com/fandressouza) for his feedback, constructive criticism and encouragement.
+- Family and friends for their help in testing, support and advice.
